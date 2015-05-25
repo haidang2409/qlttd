@@ -33,7 +33,7 @@ app.use(
 		user: 'admint7T8SY4',
 		password : 'luNYiUrtkk4R',
 		port : 44331, //port mysql
-		database:'qlttd'
+		database:'qlttd3'
 		},'request')
 );
 
