@@ -8,7 +8,7 @@ var connection  = require('express-myconnection');
 /*----------------------------------
 	Setup main environments
 ------------------------------------*/
-app.set('port',process.env.PORT || 8080);
+app.set('port',process.env.OPENSHIFT_NODEJS_PORT || 8080);
 
 app.use(express.logger('dev'));
 app.set('views',__dirname);
@@ -30,10 +30,10 @@ app.configure(function () {
 app.use(
 	connection(mysql,{
 		host: 'localhost',
-		user: 'root',
-		password : '',
+		user: 'admint7T8SY4',
+		password : 'luNYiUrtkk4R',
 		port : 3306, //port mysql
-		database:'qlttd3'
+		database:'qlttd'
 		},'request')
 );
 
