@@ -9,4 +9,12 @@
     "express": "3.4.8",
     "ejs": "*"
   }
+  
+
+"scripts": {
+  "start": "node server.js"
+},
+"main": "server.js"
+
+
 }
