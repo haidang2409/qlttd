@@ -1,0 +1,259 @@
+@CHARSET "UTF-8";
+
+.text-left {
+	text-align: left;
+	float: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.margin-button {
+	margin-top: 20px;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+body {
+	margin-bottom: 50px;
+	padding-right: 0px !important;
+}
+
+#footer {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	background-color: #f5f5f5;
+	background: #DDD;
+	min-height: 50px;
+	z-index: -1000;
+	bottom: 0;
+}
+.page-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	min-height: 100%;
+}
+
+.page-content {
+	min-height: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container .text-muted {
+	margin: 15px 0;
+}
+
+#footer>.container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+code {
+	font-size: 80%;
+}
+/* Canh giữa nội dung của table */
+.user-table td,.user-table th {
+	text-align: center;
+}
+
+/* Canh trái một cột của table */
+.left-col-table {
+	text-align: left !important;
+}
+
+/* Tiêu đề của bảng KHHT toàn khoá */
+div>h3.title {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* Khoảng cách từ nút thêm học phần đến footer */
+div.usr-btn-group {
+	margin-bottom: 70px;
+}
+
+/* Canh giữa nội dung của table, ghi đề lên css bootstrap */
+.table tbody>tr>td {
+	vertical-align: middle;
+}
+
+input.txt-mark-in {
+	text-align: center;
+}
+
+input.focused-success {
+	border-color: #2b542c;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168
+}
+
+input.focused-error {
+	border-color: #843534;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483
+}
+
+.lms-logo-48 {
+	display: inline-block;
+	height: 48px;
+	min-width: 48px;
+	padding-left: 48px;
+	background-image: url('../images/lms.svg');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: 4px center;
+}
+
+.header {
+	padding: 0px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	background: none repeat scroll 0% 0% #23262D;
+	height: 37px;
+	margin-bottom: 0px;
+	float: left;
+	z-index: 1000;
+	position: relative;
+}
+
+.top-header {
+	padding: 0px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	background: none repeat scroll 0% 0% #F9F9F9;
+	height: 70px;
+	margin-bottom: 0px;
+	float: left;
+	z-index: 1000;
+}
+
+#container {
+	float: right;
+}
+#goTop {
+background-color: #63F3DF;
+bottom: 40px;
+cursor: pointer;
+display: none;
+height: 50px;
+position: fixed;
+right: 11px;
+width: 50px;
+overflow: hidden;
+z-index: 1000;
+}
+#banner_u {
+	padding-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#image {
+	background-image: url(../images/banner-1.png);
+}
+#cls-tieudett {
+	padding-left: 10px;
+}
+#tt-tt{
+	padding-right : 10px; 
+}
+.bttop {
+	background: #fff;
+	text-align: center;
+	padding: 5px;
+	position: fixed;
+	bottom: 52px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 900;
+}
+/* Canh giữa nội dung của table */
+.user-table td, .user-table th {
+	text-align: center; 
+}
+
+/* Canh trái một cột của table */
+.left-col-table {
+	text-align: left !important;
+}
+.div-outline{
+	display: inline-block;
+}
+div#pop-up-giadien {
+	display: none;
+	position: absolute;
+	width: auto;
+	padding: 0px 10px 0px 10px;
+	background: #eeeeee;
+	color: #000000;
+	border: 1px solid #C8C2B9;
+	font-size: 90%;
+	
+}
+div#pop-up-hoadonct {
+	display: none;
+	position: absolute;
+	width: auto;
+	padding: 0px 10px 0px 10px;
+	background: #eeeeee;
+	color: #000000;
+	border: 1px solid #C8C2B9;
+	font-size: 90%;
+}
+#div-hoadonct {
+	/*width : auto;
+	text-align : center;
+	margin : 20px 40px 20px 40px;
+	position: absolute;
+	padding: 0px 10px 0px 10px;
+	background: #fff;
+	color: #000000;
+	border: 2px solid #208AB4;
+	font-size: 100%;*/
+	width: 650px;
+	padding: 0px 10px 0px 10px;
+	margin : 20px 40px 20px 40px;
+	border: 1px solid #208AB4;
+};
+#table-hdct {
+	border-collapse: collapse;
+	border: 1px solid #C8C2B9;
+	padding: 5px;
+};
+#div-inline {
+	float: left;
+}
+.btn-xacnhangui{
+	padding: 5px 9px;
+	border-radius:30px !important;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.modal-700 {
+	width: 680px;
+}
+#divhd2 {
+	padding-left: 10px;
+}
+.modal-500 {
+	width: 370px;
+}
+.btn2 {
+	background-color: #fff;
+	border: 1px solid transparent;
+	/*padding-right: 0px;
+	padding-left: 0px;*/
+	padding: 0px;
+	color: #2882BC;
+};
