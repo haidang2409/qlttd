@@ -29,10 +29,10 @@ app.configure(function () {
 
 app.use(
 	connection(mysql,{
-		host: '12345600a4382ec97a10000f7-qlttd-haidang.rhcloud.com',
+		host: '127.4.114.2',
 		user: 'admint7T8SY4',
 		password : 'luNYiUrtkk4R',
-		port : 44331, //port mysql
+		port : 3306, //port mysql
 		database:'qlttd3'
 		},'request')
 );
