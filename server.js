@@ -8,8 +8,8 @@ var connection  = require('express-myconnection');
 /*----------------------------------
 	Setup main environments
 ------------------------------------*/
-app.set('port',process.env.OPENSHIFT_NODEJS_PORT || 8080);
-
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 app.use(express.logger('dev'));
 app.set('views',__dirname);
 app.use(express.static(__dirname + '/public'));
@@ -30,8 +30,8 @@ app.configure(function () {
 app.use(
 	connection(mysql,{
 		host: '127.4.114.2',
-		user: 'admint7T8SY4',
-		password : 'luNYiUrtkk4R',
+		user: 'abc123',
+		password : 'abc123',
 		port : 3306, //port mysql
 		database:'qlttd3'
 		},'request')
@@ -131,7 +131,7 @@ app.use(function(err, req, res, next){
 
 
 /*Create server*/
-http.createServer(app).listen(app.get('port'),function(){
+http.createServer(app).listen(server_port, server_ip_address,function(){
 	console.log('Listening port : %s ', app.get('port'));
 });
 
