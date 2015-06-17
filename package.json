@@ -9,5 +9,4 @@
     "express": "3.4.8",
     "ejs": "*"
   }
-"main": "server.js"
 }
