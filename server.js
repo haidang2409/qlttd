@@ -29,9 +29,9 @@ app.configure(function () {
 
 app.use(
 	connection(mysql,{
-		host: '127.4.114.2',
-		user: 'abc123',
-		password : 'abc123',
+		host: '127.7.127.2',
+		user: 'adminNZ5WDRL',
+		password : 'R6kZ9LwySabn',
 		port : 3306, //port mysql
 		database:'qlttd3'
 		},'request')
